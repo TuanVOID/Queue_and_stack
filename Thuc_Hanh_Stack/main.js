@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Stack_1 = require("./Stack");
+var stack = new Stack_1.Stack();
+stack.push("abc");
+stack.push("xyz");
+stack.push(123);
+stack.push(true);
+stack.push(false);
+stack.pop();
+console.log(stack.container);
+console.log(stack.size());
